@@ -1,0 +1,6 @@
+<h3>List of posts</h3>
+
+{{#each}}
+	<h5>{{#link-to 'posts.post' this}}{{title}}{{/link-to}}</h5>
+	<p>{{body}}</p>
+{{/each}}
